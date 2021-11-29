@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0; 
+}
+body{
+    height: 60vh;
+    background-image:linear-gradient(orange, darkred);
+    
+}
+header{
+    height: 20vh;
+}
+
+footer{
+    height: 20vh;
+}
+
+div{
+    display: inline-block;
+    border-radius: 10px;
+    border:solid white;
+    margin-top: 1vh;
+    width: 25vw;
+    height: 70vh;
+    text-align: center;
+    
+    
+}
+
+div:hover{
+   background-color: darkblue; 
+   transition: 2s;
+   transition-timing-function: ease;
+}
+
+
+
+p{
+    display:block;
+    align-items: bottom;
+    color:white;
+}  
+h1{
+    color:darkred;
+    text-align: center;
+    font-size: 3vw;
+}
+h2{
+    color:orangered;
+    text-align: center;
+    font-size:2vw;
+}
+
+i{
+    display:inline-block;  
+    font-size: 10vw;
+    text-align: center;
+}
+i:hover{
+    color:orange;
+    transition: orange, 2s;
+}
+
